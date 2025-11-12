@@ -1,0 +1,31 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:rgb(66, 142, 213);
+    color:rgb(0, 0, 0);
+    margin: 20px;
+    text-align: center;
+}
+
+h1{
+    background-color:rgb(116, 156, 197);
+    border:10px
+}
+
+p,ul,ol,table{
+    line-height:2.5;
+    text-align: left;
+    max-width:700px;
+    margin:0 auto 1em auto;
+}
+
+ul,ol {
+    padding-left:200px;
+}
+
+table{
+    background-color: antiquewhite;
+    color:black;
+    width:60%;
+    margin: 0 auto 10px auto;
+
+}
