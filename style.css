@@ -4,6 +4,8 @@ body{
     color:rgb(0, 0, 0);
     margin: 20px;
     text-align: center;
+    background-image:url("fish.jpeg");
+    cursor: url(hand.png) 8 8, auto;
 }
 
 h1{
@@ -22,10 +24,28 @@ ul,ol {
     padding-left:200px;
 }
 
+
+th, td{
+    border: 2px dotted purple;
+
+}
+
+
 table{
     background-color: antiquewhite;
     color:black;
     width:60%;
     margin: 0 auto 10px auto;
+} 
 
+a{
+    color: brown;
+}
+
+a:hover{
+    color:aqua;
+}
+
+img:hover{
+    width: 400px;
 }
